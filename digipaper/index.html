@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
+    <title>/digipaper</title>
+    <link rel="shortcut icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="materialize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="maskHeader"></div>
+        <div class="image"></div>
+        <div id="menuParent">
+            <div class="menu">
+                <a href="#services"><div class="button" id="about"><p>About Us</p></div></a>
+                <a href="#stories"><div class="button" id="books"><p>Books</p></div></a>
+                <a href=""><div class="button" id="main"><p>Main Page</p></div></a>
+            </div>
+        </div>
+        <a href="#"><div class="menuIcon"></div></a>
+        <div class="text"><p>Library, where books physical and digital carriers are equal</p></div>
+        <div class="getInTouchParent"><a href ="#getintouch" class="waves-effect waves-light btn" id="stuff">Get in Touch</a></div>
+    </header>
+    <a id="services"></a>
+    <a id="up"></a>
+    <main>
+        <div class="content" align="center">
+            <div id="services-parent">
+                <div class="services" align="center">
+                    <div class="serviceIcon" id="icon1"></div>
+                    <div class="serviceIcon" id="icon2"></div>
+                    <div class="serviceIcon" id="icon3"></div>
+                </div>
+            </div>
+            <div id="services2-parent">
+                <div class="services2" align="center">
+                    <div class="serviceText t1" id="text1">
+                        <h1>Classic Books</h1>
+                        <p>
+                            We have a huge database of books,  from<br>
+                            classics to contemporary writers,<br>
+                            from narrative literature to documentary.
+                        </p>
+                    </div>
+                    <div class="serviceText t2" id="text1">
+                        <h1>Digital Books</h1>
+                        <p>
+                            The digital archive is not inferior to the physical.<br>
+                            Also, if you take a book on one carrier, you<br>
+                            immediately get access to this book for on another.
+                        </p>
+                    </div>
+                    <div class="serviceText t3" id="text1">
+                        <h1>Original Content</h1>
+                        <p>
+                            We support the initiative of writers to distribute<br>
+                            their works through our service.<br>
+                            If you want to do this - do not hesitate to contact.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a id="stories"></a>
+            <div class="stories">
+                <div class="caption">
+                    <h1>Checkout our archive</h1>
+                    <p>We have something interesting to read</p>
+                </div>
+                <div style="width: 100%;" align="center">
+                    <div class="lightBox">
+                        <div class="img"></div>
+                        <div class="description" align="left">
+                            <h1 class="divineComedy">“The Divine Comedy” by Dante Alighieri</h1>
+                            <p class="divineComedy">
+                                The Divine Comedy, translated by Allen Mandelbaum, begins in a shadowed forest<br>
+                                on Good Friday in the year 1300. It proceeds on a journey that, in its intense<br>
+                                recreation of the depths and the heights of human experience, has become the key<br>
+                                with which Western civilization has sought to unlock the mystery of its own identity.
+                            </p>
+                            <h1 class="greatExpectations" style="display: none; opacity: 0;">“Great Expectations” the novel by Charles Dickens</h1>
+                            <p class="greatExpectations" style="display: none; opacity: 0;">
+                                Great Expectations is Charles Dickens's thirteenth novel. It is his second novel,<br>
+                                after David Copperfield, to be fully narrated in the first person. Great Expectations is<br>
+                                a bildungsroman, or a coming-of-age novel, and it is a classic work of Victorian<br>
+                                literature. It depicts the growth and personal development of an orphan named Pip.
+                            </p>
+                            <h1 class="we" style="display: none; opacity: 0;">“We” by Yevgeniy Zamyatin</h1>
+                            <p class="we" style="display: none; opacity: 0;">
+                                "We" - dystopia novel Yevgeny Zamyatin with elements of satire (1920).<br>
+                                The action takes place in about thirty-second century. This novel describes a totalitarian<br>
+                                society of rigid control over the individual (the names are replaced by letters<br>
+                                and numbers, the state controls even intimate life), ideologically based on<br>
+                                Taylorism, scientism and denial fantasies controlled "elected" unopposed "benefactors".
+                            </p>
+                        </div>
+                        <a class="waves-effect waves-light btn" id="readIt">Read It</a>
+                        <ul class="indicators"><li class="indicator-item active" id="1"></li><li class="indicator-item" id="2"></li><li class="indicator-item" id="3"></li><li class="indicator-item" id="4"></li></ul>
+                    </div>
+                </div>
+                <div style="width: 100%;" align="center">
+                    <div style="width: 100%;">
+                        <div class="books" align="center">
+                            <a href="#">
+                                <div class="book" id="book1" onmouseover="document.getElementById('mask1').style.display = 'block'; document.getElementById('aBook1').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask1').style.display = 'none'; document.getElementById('aBook1').style.display = 'none';">
+                                    <div class="mask" id="mask1"></div>
+                                    <div class="addBook" id="aBook1"></div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="book" id="book2" onmouseover="document.getElementById('mask2').style.display = 'block'; document.getElementById('aBook2').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask2').style.display = 'none'; document.getElementById('aBook2').style.display = 'none';">
+                                    <div class="mask" id="mask2"></div>
+                                    <div class="addBook" id="aBook2"></div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="book" id="book3" onmouseover="document.getElementById('mask3').style.display = 'block'; document.getElementById('aBook3').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask3').style.display = 'none'; document.getElementById('aBook3').style.display = 'none';">
+                                    <div class="mask" id="mask3"></div>
+                                    <div class="addBook" id="aBook3"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="books1" align="center">
+                            <a href="#">
+                                <div class="book" id="book4" onmouseover="document.getElementById('mask4').style.display = 'block'; document.getElementById('aBook4').style.display = 'block';"
+                                                             onmouseout="    document.getElementById('mask4').style.display = 'none'; document.getElementById('aBook4').style.display = 'none';">
+                                    <div class="mask" id="mask4"></div>
+                                    <div class="addBook" id="aBook4"></div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="book" id="book5" onmouseover="document.getElementById('mask5').style.display = 'block'; document.getElementById('aBook5').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask5').style.display = 'none'; document.getElementById('aBook5').style.display = 'none';">
+                                    <div class="mask" id="mask5"></div>
+                                    <div class="addBook" id="aBook5"></div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="book" id="book6" onmouseover="document.getElementById('mask6').style.display = 'block'; document.getElementById('aBook6').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask6').style.display = 'none'; document.getElementById('aBook6').style.display = 'none';">
+                                    <div class="mask" id="mask6"></div>
+                                    <div class="addBook" id="aBook6"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="books1" align="center">
+                            <a href="#">
+                                <div class="book" id="book7" onmouseover="document.getElementById('mask7').style.display = 'block'; document.getElementById('aBook7').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask7').style.display = 'none'; document.getElementById('aBook7').style.display = 'none';">
+                                    <div class="mask" id="mask7"></div>
+                                    <div class="addBook" id="aBook7"></div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="book" id="book8" onmouseover="document.getElementById('mask8').style.display = 'block'; document.getElementById('aBook8').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask8').style.display = 'none'; document.getElementById('aBook8').style.display = 'none';">
+                                    <div class="mask" id="mask8"></div>
+                                    <div class="addBook" id="aBook8"></div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="book" id="book9" onmouseover="document.getElementById('mask9').style.display = 'block'; document.getElementById('aBook9').style.display = 'block';"
+                                                             onmouseout="document.getElementById('mask9').style.display = 'none'; document.getElementById('aBook9').style.display = 'none';">
+                                    <div class="mask" id="mask9"></div>
+                                    <div class="addBook" id="aBook9"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="pointer"></div>-->
+                <div class="waves-effect waves-light btn" id="view-more">VIEW MORE</div>
+            </div>
+            <a id="getintouch"></a>
+            <div class="contactUs">
+                <div class="caption1">
+                    <h1>Get In Touch</h1>
+                    <p>We are communicative and social</p>
+                </div>
+                <div id="map-parent" align="center">
+                    <div class="map">
+                        <div class="mapImage">
+                            <iframe id="map-widget" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24183.927475412052!2d-74.167322!3d40.74022499999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25380f669c769%3A0xd2b4264a03e28aec!2sNJPAC!5e0!3m2!1sru!2sru!4v1425159588567" width="1170" height="400" frameborder="0" style="border:0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div id="info-parent" align="center">
+                    <div id="info-child" align="left">
+                        <div class="contactForm">
+                            <form method="POST" id="cForm" action="javascript:void(null);" onsubmit="call(); validation();">
+                                <input class="name" type="text" id="name" name="name" placeholder="Your Name">
+                                <input class="email" type="text" id="email" name="email" placeholder="Your Mail"><br>
+                                <input class="subject" type="text" id="subject" name="subject" placeholder="Subject"><br>
+                                <textarea class="materialize-textarea" id="message" rows="10" cols="45" name="message" placeholder="Type Message Here..."></textarea><br>
+                                <button class="btn waves-effect waves-light" id="submitButton" type="submit" name="action">SEND</button>
+                            </form>
+                        </div>
+                        <div class="info">
+                            <div class="address">
+                                <h1>Our Address</h1>
+                                <p>
+                                    4896 Desert Broom Court<br>
+                                    Newark, NJ 07102<br>
+                                    United States
+                                </p>
+                            </div>
+                            <div class="mail">
+                                <h1>Email</h1>
+                                <p>digipaper@gmail.com</p>
+                            </div>
+                            <div class="phone">
+                                <h1>Phone</h1>
+                                <p>+00 123-456-78900</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div style="width: 100%;" align="center">
+            <div class="foot">
+                <div class="copyright"><p>Copyright © 2014 /digipaper,All Rights Reserved</p></div>
+                <div class="socialNetworks">
+                    <a href="https://www.facebook.com/" target="_blank"><div class="facebook"></div></a>
+                    <a href="https://twitter.com/" target="_blank"><div class="twitter"></div></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--scripts-->
+    <script src="scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="scripts/materialize.js" type="text/javascript"></script>
+    <!--<script src="scripts/mobile-redirection.js" type="text/javascript"></script>-->
+    <script src="scripts/menu.js" type="text/javascript"></script>
+    <script src="scripts/dropDown.js" type="text/javascript"></script>
+    <script src="scripts/slider.js" type="text/javascript"></script>
+    <script src="scripts/smoothScroll.js" type="text/javascript"></script>
+    <script src="scripts/scrolling.js" type="text/javascript"></script>
+    <script src="scripts/scrollingToTop.js" type="text/javascript"></script>
+    <script src="scripts/sendForm.js" type="text/javascript"></script>
+</body>
+</html>

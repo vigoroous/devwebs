@@ -1,0 +1,99 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #101524;
+  cursor: default !important;
+}
+.view {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow:hidden;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.title {
+  font-family: 'Open Sans';
+  font-size: 80px;
+  line-height: 100px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  width: 950px;
+  height: 600px;
+  padding: 50px;
+  margin: auto;
+  transform-origin: 50% 100%;
+  transform: rotateX(45deg) rotateZ(-45deg) rotateY(0deg);
+  animation: rotateMe 12s infinite;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin-left: -100px;
+  margin-top: -450px;
+  color: #449DA7;
+  text-transform: uppercase;
+  text-shadow:
+    -20px 20px #2D7982,
+    -19px 19px #2D7982,
+    -18px 18px #2D7982,
+    -17px 17px #2D7982,
+    -16px 16px #2D7982,
+    -15px 15px #2D7982,
+    -14px 14px #2D7982,
+    -13px 13px #2D7982,
+    -12px 12px #2D7982,
+    -11px 11px #2D7982,
+    -10px 10px #2D7982,
+    -9px 9px #2D7982,
+    -8px 8px #2D7982,
+    -7px 7px #2D7982,
+    -6px 6px #2D7982,
+    -5px 5px #2D7982,
+    -4px 4px #2D7982,
+    -3px 3px #2D7982,
+    -2px 2px #2D7982,
+    -1px 1px #2D7982;
+}
+#error {
+    color: #ff5e5e !important; 
+    text-shadow:
+    -20px 20px #ff3c3c,
+    -19px 19px #ff3c3c,
+    -18px 18px #ff3c3c,
+    -17px 17px #ff3c3c,
+    -16px 16px #ff3c3c,
+    -15px 15px #ff3c3c,
+    -14px 14px #ff3c3c,
+    -13px 13px #ff3c3c,
+    -12px 12px #ff3c3c,
+    -11px 11px #ff3c3c,
+    -10px 10px #ff3c3c,
+    -9px 9px #ff3c3c,
+    -8px 8px #ff3c3c,
+    -7px 7px #ff3c3c,
+    -6px 6px #ff3c3c,
+    -5px 5px #ff3c3c,
+    -4px 4px #ff3c3c,
+    -3px 3px #ff3c3c,
+    -2px 2px #ff3c3c,
+    -1px 1px #ff3c3c;
+}
+@keyframes rotateMe {
+  0%, 100% {
+    transform: rotateX(45deg) rotateZ(-45deg) rotateY(0deg);
+    letter-spacing: 5px;
+  }
+  
+  50% {
+    transform: rotateX(45deg) rotateZ(-45deg) rotateY(10deg);
+    letter-spacing: 0px;
+  }
+}
