@@ -1,0 +1,133 @@
+﻿@font-face{
+    font-family: 'Raleway';
+    src: url(http://devwebs.ddns.net/INDOOR/fonts/Raleway/Raleway.eot?#iefix) format('embedded-opentype'),
+         url(http://devwebs.ddns.net/INDOOR/fonts/Raleway/Raleway.woff) format('woff'),
+         url(http://devwebs.ddns.net/INDOOR/fonts/Raleway/Raleway.ttf) format('truetype'),
+         url(http://devwebs.ddns.net/INDOOR/fonts/Raleway/Raleway.svg#Raleway) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url(http://devwebs.ddns.net/INDOOR/fonts/OpenSans/OpenSans.eot?#iefix) format('embedded-opentype'),
+         url(http://devwebs.ddns.net/INDOOR/fonts/OpenSans/OpenSans.woff) format('woff'),
+         url(http://devwebs.ddns.net/INDOOR/fonts/OpenSans/OpenSans.ttf) format('truetype'),
+         url(http://devwebs.ddns.net/INDOOR/fonts/OpenSans/OpenSans.svg#OpenSans) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media only screen and (max-height: 1080px){
+    .cart-content {
+        height: calc(100% - 100px - 30px - 80px - 114px);
+        width: 100%;
+        overflow: auto;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after{
+    box-sizing: initial;
+}
+html {
+    width: calc(100% + 350px);
+    height: 100%;
+    line-height: initial;
+}
+body {
+    height: 100%;
+    background: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+h1 {
+    line-height: normal;
+    margin: 0;
+}
+*::selection {
+    background: #89C0C9;
+    color: #ffffff;
+}
+*::-moz-selection {
+    background: #59A7B3;
+    color: #ffffff;
+}
+#bgMask {
+    display: block;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #000000;
+    z-index: 12;
+}
+#sideMenu {
+    position: relative;
+    height: 100%;
+    width: 350px;
+    float: right;
+    top: 0;
+    background: #EDEFF0;
+    z-index: 15;
+}
+header {
+    display: inline-block;
+    background: #2F2F2F;
+    width: 100%;
+    height: 100px;
+    line-height: 104px;
+    vertical-align: middle;
+    text-align: center;
+    /*padding: 20px 0 0;*/
+}
+#closeBtn {
+    display: inline-block;
+    transform: rotate(0deg);
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 31px;
+    cursor: pointer;
+    padding: 10px;
+    background: url('http://devwebs.ddns.net/INDOOR/images/arrowLeft.png') no-repeat center;
+}
+.menuTitle {
+    display: inline-block;
+    font: normal normal normal 15px/1.4em raleway,sans-serif;
+    color: #EDEFF0;
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 28px;
+    margin-right: 57px;
+    text-align: center;
+}
+.empty-cart-message {
+    display: block;
+    font: normal normal normal 15px/1.4em raleway,sans-serif;
+    color: #2F2F2F;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cart-content {
+    color: #2F2F2F;
+}
+.amount {
+    display: block;
+    font: normal normal normal 15px/20px raleway,sans-serif;
+    color: #2F2F2F;
+    font-size: 26px;
+    height: 60px;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px 34px 0;
+}
+.widget-total-amount {
+    float: right;
+}
