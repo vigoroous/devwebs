@@ -1,0 +1,272 @@
+@font-face{
+  font-family: 'NeuzeitSLT-Book';
+  src:url(fonts/NeuzeitSLT-Book/NeuzeitSLT-Book.eot?#iefix) format('embedded-opentype'),
+      /*url(fonts/NeuzeitSLT-Book/NeuzeitSLT-Book.otf) format('opentype'),*/
+      url(fonts/NeuzeitSLT-Book/NeuzeitSLT-Book.woff) format('woff'),
+      url(fonts/NeuzeitSLT-Book/NeuzeitSLT-Book.ttf) format('truetype'),
+      url(fonts/NeuzeitSLT-Book/NeuzeitSLT-Book.svg#NeuzeitSLT-Book) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: initial;
+}
+html {
+  height: 100%;
+  line-height: initial;
+}
+body {
+  height: 100%;
+  background: #FFFFFF;
+  font-family: NeuzeitSLT-Book;
+}
+::selection {
+  background: grey;
+  color: #fff;
+  text-shadow: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 6;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+#header-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  /*line-height: 107px;
+  vertical-align: middle;*/
+  transition: line-height 1s cubic-bezier(.215,.61,.355,1);
+  position: relative;
+}
+#header-title {
+  display: inline-block;
+  line-height: 107px;
+  vertical-align: middle;
+  float: left;
+}
+.menu-button {
+  display: inline-block;
+  line-height: 107px;
+  vertical-align: middle;
+  float: right;
+  margin-left: 17.6px;
+}
+.menu-button a {
+  padding-bottom: 3px;
+}
+#contact {
+  margin:0 10px 0 21.6px;
+}
+#wrapper {
+  margin-top: 107px;
+}
+#image {
+  background: url(img/tools.jpg) no-repeat top center;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+}
+#mask {
+  display: inline-block;
+  position: absolute;
+  top: 107px;
+  width: 100%;
+  text-align: center;
+  height: 460px;
+  line-height: 460px;
+  background: #fff;
+  opacity: 0.2;
+}
+#namespace-wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 107px;
+  width: 100%;
+  text-align: center;
+  height: 460px;
+  line-height: 460px;
+}
+#namespace {
+  display: inline-block;
+  background: url(img/construct.png) no-repeat center;
+  background-size: cover;
+  height: 222px;
+  width: 500px;
+  vertical-align: middle;
+  opacity: 1;
+}
+#button-wrapper {
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  top: -26px;
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+#get-in-touch {
+  color: #000;
+  background: #EFEFEF;
+  border: 3px solid #000;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 9px;
+  font-size: .9rem;
+  padding: 13px 20px 10px;
+  transition: all .2s linear;
+}
+#get-in-touch:hover {
+  background: #000;
+  color: #fff;
+}
+#page-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  padding-top: 42px;
+  padding-bottom: 96px;
+  line-height: 35.2px;
+  width: 600px;
+}
+#filter-grid {
+  max-width: 1170px;
+  margin-top: 17px;
+}
+#box-labels {
+  display: inline-block;
+  text-align: right;
+  right: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  width: 100%;
+}
+#box-labels p {
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: 1.92px;
+  letter-spacing: .12rem;
+}
+#filter-grid hr {
+  height: 5px;
+  background-color: #000;
+  margin-top: .85rem;
+  border: none;
+}
+#grid {
+  max-width: 1170px;
+  margin-top: 6px;
+}
+#grid-element-1 {
+  width: 575px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#grid-element-1 .element-image {
+  background: url(img/materials/planking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-element-1 .type {
+  background: #ffcc00;
+}
+#grid-element-2 {
+  width: 575px;
+  float: right;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#grid-element-2 .element-image {
+  background: url(img/materials/bricks.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-element-2 .type {
+  background: #ed2024;
+}
+#grid-element-3 {
+  width: 575px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#grid-element-3 .element-image {
+  background: url(img/materials/broken_stone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-element-3 .type {
+  background: #63c9e9;
+}
+#grid-element-4 {
+  width: 575px;
+  float: right;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#grid-element-4 .element-image {
+  background: url(img/tools/hammer.png) grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-element-4 .type {
+  background: #ffcc00;
+}
+.element-image {
+  height: 275px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transform: translateZ(0);
+  transition: all .5s cubic-bezier(.25,.46,.45,.94);
+}
+.element-image:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+.type {
+  height: 5px;
+  border: none;
+  position: relative;
+  margin: -5px 0;
+  width: 100%;
+  background: #000;
+  z-index: 1;
+}
+.element-name {
+  text-align: center;
+  margin: 20px 0 0;
+  padding-bottom: 6px;
+  font-size: 17.5px;
+  font-size: 1.75rem;
+}
+.element-tag {
+  text-align: center;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #8c8c8c;
+  font-size: .75rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
